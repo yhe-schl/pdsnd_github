@@ -17,6 +17,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
+    # set initial values
     city = ""
     month = ""
     day = ""
