@@ -39,6 +39,7 @@ def get_filters():
     print('\nYour month filter is: ', month.title())
     print('\nYour day of week filter is: ', day.title())
     print('-'*40)
+    print('-'*40)
     return city, month, day
 
 
