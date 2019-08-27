@@ -36,9 +36,11 @@ def get_filters():
 
     # print filters
     print('-'*40)
+    print('-'*40)
     print('\nYour city filter is: ', city.title())
     print('\nYour month filter is: ', month.title())
     print('\nYour day of week filter is: ', day.title())
+    print('-'*40)
     print('-'*40)
     return city, month, day
 
@@ -205,7 +207,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
