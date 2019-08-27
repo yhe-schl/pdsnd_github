@@ -34,6 +34,7 @@ def get_filters():
     while day not in ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all'):
         day = input('\nWhich day? monday, tuesday, wednesday, thursday, friday, saturday, sunday or all ?\n').lower()
 
+    # print filters
     print('-'*40)
     print('\nYour city filter is: ', city.title())
     print('\nYour month filter is: ', month.title())
